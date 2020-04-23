@@ -10,19 +10,72 @@ body{
 }
 .header{
     background: rgb(76, 148, 255);
-    padding: 3px;
+    padding: 10px 20px 0px 20px;
     width: 100% !important;
 }
 .header ul{
     list-style: none;
 }
 .header ul li{
-    float: left;
-    margin: 5px;
+    display: inline;
+    margin: 0px 20px 5px 0px;
     cursor: pointer;
     padding: 2px;
 }
-.header ul li:hover{
-    background-color: blue;
-    
+
+.header ul li i{
+    color: white;
+    font-size: 20px;
+}
+.header ul li > i:hover{
+    color: black;
+}
+.header p{
+    color: white;
+}
+.header button{
+    background-color: white !important;
+    color: black !important;
+}
+.header button:hover{
+    background-color: blue !important;
+    color: white !important;
+    transition: ease 1s;
+}
+
+/* header end */
+
+
+.logo{
+    /* margin-right: 100px; */
+    max-width: 200px;
+    height: auto;  
+    float: left;
+}
+.nav-my-styling{
+    float: right;
+}
+.nav-item{
+    color: black !important;
+    margin: 5px;
+}
+.nav-item:hover{
+    background-color: rgb(76, 148, 255) !important;
+    border-radius: 10px;
+    color: white !important;
+}
+.active{
+    background-color: rgb(76, 148, 255) !important;
+    border-radius: 10px;
+    color: white !important;
+}
+.dropdown-item:hover{
+    background-color: rgb(76, 148, 255) !important;
+}
+/* nav bar end */
+
+
+.slider-images{
+    width: 100%;
+    height: 70vh;
 }
