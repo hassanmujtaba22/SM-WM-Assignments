@@ -157,6 +157,6 @@ marquee{
 .progress-br p{
     font-weight: bolder;
     font-family: serif;
-    font-size: 1.5vw;
+    font-size: 10px;
     color: green;
 }
