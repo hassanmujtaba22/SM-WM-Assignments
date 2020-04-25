@@ -90,7 +90,7 @@ body{
 /* slider end  */
 
 
-marquee{
+.intro marquee{
     background-color: rgb(76, 148, 255);
     margin-top: 10px;
     color: white;
@@ -102,7 +102,7 @@ marquee{
     align-content: center;
     text-align: center;
 }
-.introduction h1, span{
+.introduction h1, .introduction span{
     font-family: serif;
     font-weight: bolder;
     letter-spacing: 10px;
@@ -150,13 +150,87 @@ marquee{
     height: auto;  
 }
 .progress-br h3{
-    font-size: 5vw;
+    font-size: 40px;
     font-family: serif;
     font-weight: bolder;
 }
 .progress-br p{
     font-weight: bolder;
     font-family: serif;
-    font-size: 10px;
+    font-size: 15px;
     color: green;
+}
+/* progress bar end  */
+
+
+.wedoing{
+    margin: 25px auto;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.wedoing h1, .wedoing span{
+    font-family: serif;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-size: 3vw;
+}
+.wedoing h1{
+    color: rgb(0, 253, 0);
+}
+.wedoing h1 span{
+    color: rgb(76, 148, 255);
+}
+.box{
+    margin: 20px 20px !important;
+    padding: 50px !important;
+    cursor: pointer;
+}
+.box h5{
+    color: rgb(76, 148, 255);
+    font-family: serif;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+/* what we are doing end  */
+
+
+
+
+.mission{
+    width: 60%;
+}
+.mission h1{
+    color: rgb(76, 148, 255);
+    font-weight: bolder;
+    font-family: serif;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.mission-box{
+    background-color: rgb(196, 196, 196);
+    border: gray 1px solid;
+    margin: 10px;
+    padding: 20px;
+}
+.mission-box h5{
+    color: rgb(76, 148, 255);
+    font-family: serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.mission-box h5 img{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.event h1{
+    color: rgb(76, 148, 255);
+    font-weight: bolder;
+    font-family: serif;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
