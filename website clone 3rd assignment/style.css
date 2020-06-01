@@ -32,7 +32,7 @@ body{
     font-size: 20px;
 }
 .header ul li > i:hover{
-    color: black;
+    color: rgb(0, 253, 0);
 }
 .header p{
     color: white;
@@ -45,6 +45,11 @@ body{
     background-color: blue !important;
     color: white !important;
     transition: ease 1s;
+}
+.head{
+    align-items: center;
+    align-content: center;
+    text-align: center;
 }
 
 /* header end */
@@ -64,6 +69,7 @@ body{
 .nav-item{
     color: black !important;
     margin: 5px;
+    padding: 3px !important;
 }
 .nav-item:hover{
     background-color: rgb(76, 148, 255) !important;
@@ -108,7 +114,7 @@ body{
     letter-spacing: 10px;
     margin-bottom: 10px;
     margin-top: 50px;
-    font-size: 3vw;
+    font-size: 5vw;
 }
 .introduction h1{
     color: rgb(0, 253, 0);
@@ -120,7 +126,7 @@ body{
     text-align: left;
     color: gray;
     margin-top: 10px;
-    font-size: 1.5vw;
+    font-size: 20px;
 }
 .text{
     opacity: 0;
@@ -150,14 +156,14 @@ body{
     height: auto;  
 }
 .progress-br h3{
-    font-size: 40px;
+    font-size: 50px;
     font-family: serif;
     font-weight: bolder;
 }
 .progress-br p{
     font-weight: bolder;
     font-family: serif;
-    font-size: 15px;
+    font-size: 20px;
     color: green;
 }
 /* progress bar end  */
@@ -175,7 +181,7 @@ body{
     letter-spacing: 10px;
     margin-bottom: 20px;
     margin-top: 50px;
-    font-size: 3vw;
+    font-size: 5vw;
 }
 .wedoing h1{
     color: rgb(0, 253, 0);
@@ -233,4 +239,69 @@ body{
     font-size: 30px;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+/* .mission .event end  */
+
+
+.images{
+    margin: 25px auto;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.images h1, .images span{
+    font-family: serif;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-size: 5vw;
+}
+.images h1{
+    color: rgb(0, 253, 0);
+}
+.images h1 span{
+    color: rgb(76, 148, 255);
+}
+.images .imgs{
+    /* width: 250px; */
+    margin-top: 30px;
+}
+.imgs img{
+    width: 100%;
+}
+
+/* images end  */
+
+
+
+footer{
+    background-color: rgb(51, 51, 51);
+    padding: 60px 0;
+    color: white;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    cursor: pointer;
+}
+footer i{
+    color: rgb(0, 253, 0);
+    margin-right: 20px;
+    cursor: pointer;
+}
+footer h6{
+    font-size: larger;
+    font-weight: bolder;
+    font-family: serif;
+}
+.copyright{
+    background-color: rgb(76, 148, 255);
+}
+.copyright p{
+    padding: 10px 50px 10px;
+    font-size: 10px;
+    color: white;
 }
