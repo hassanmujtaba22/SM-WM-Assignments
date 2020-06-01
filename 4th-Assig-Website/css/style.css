@@ -15,7 +15,7 @@ a:hover{
     margin: 0 !important;
     background-color: transparent !important;
 }
-.navbar img{
+.logo{
     width: 100px;
 }
 .navbar .navbar-collapse a,button{
@@ -24,17 +24,14 @@ a:hover{
     font-weight: bold !important;
     color: black !important;
 }
-.navbar .navbar-collapse button{
-    color: blue !important;
-    border-color: blue;
-    transition: ease-in 0.5s;
-}
-.navbar .navbar-collapse button:hover{
-    color: white !important;
-    background-color: blue !important;
-}
 .navbar .navbar-collapse a:hover{
     color: blue !important;
+}
+.dropdown-menu{
+    border: none;
+}
+.dropdown-item{
+    background-color: transparent !important;
 }
 /* navbar  */
 
