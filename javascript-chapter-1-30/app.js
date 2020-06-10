@@ -54,8 +54,25 @@
 // document.write("My Birth year is " + birthYear + "<br/>" + "Data type of my declared variable is number, See in the console")
 // console.log(typeof(birthYear));
 
-var visiterName = prompt("Enter Your Name: ")
-var productTitle = prompt("Enter Product title: ")
-var quantity = prompt(parseInt("Enter Quantity "))
-alert(visiterName + " ordered " + quantity + " T-shirts " + productTitle) 
+// var visiterName = prompt("Enter Your Name: ")
+// var productTitle = prompt("Enter Product title: ")
+// var quantity = prompt(parseInt("Enter Quantity "))
+// alert(visiterName + " ordered " + quantity + " T-shirts " + productTitle) 
+
 // Chapter 3
+
+// Chapter 4
+// var variables = `<h2>Rules for naming JS variables</h2>
+// Variable names can only contain number, $ and $my_1stVariable.
+// Variables must begin with a letter, $ or _. For example $name, _name or name.
+// Variable names are case Sensitive.
+// Variable names should not be JS keyword.`
+// document.write(variables)
+// Chapter 4
+
+// Chapter 5
+// var value1 = prompt("Enter value one: ")
+// var value2 = prompt("Enter value two: ")
+
+// Chapter 5
+
