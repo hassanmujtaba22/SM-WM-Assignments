@@ -1,0 +1,48 @@
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+.main{
+
+}
+/* navbar  */
+.navbar{
+    width: 100% !important;
+    margin: 0 !important;
+    background-color: transparent !important;
+}
+.logo{
+    width: 100px;
+}
+.navbar .navbar-collapse a,button{
+    text-transform: uppercase !important;
+    font-size: 16px;
+    font-weight: bold !important;
+    color: black !important;
+}
+.navbar .navbar-collapse a:hover{
+    color: blue !important;
+}
+.dropdown-menu{
+    border: none;
+}
+.dropdown-item{
+    background-color: transparent !important;
+}
+/* navbar  */
+
+
+/* slider  */
+
+/* slider  */
+
+/* gallery */
+.card-deck .card:hover{
+    transform: rotate(1deg);
+    box-shadow: 6px 10px rgba(204, 204, 204, 0.2);
+}
+/* gallery */

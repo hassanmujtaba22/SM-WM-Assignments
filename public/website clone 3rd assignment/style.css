@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-fluid{
+    /* margin: 0 !important; */
+    /* padding: 0 !important; */
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background: rgb(76, 148, 255);
+    padding: 10px 20px 0px 20px;
+    width: 100% !important;
+}
+.header ul{
+    list-style: none;
+}
+.header ul li{
+    display: inline;
+    margin: 0px 20px 5px 0px;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.header ul li i{
+    color: white;
+    font-size: 20px;
+}
+.header ul li > i:hover{
+    color: rgb(0, 253, 0);
+}
+.header p{
+    color: white;
+}
+.header button{
+    background-color: white !important;
+    color: black !important;
+}
+.header button:hover{
+    background-color: blue !important;
+    color: white !important;
+    transition: ease 1s;
+}
+.head{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+/* header end */
+
+
+.logo{
+    /* margin-right: 100px; */
+    max-width: 200px;
+    height: auto;  
+    float: left;
+    margin-left: 20px;
+    /* margin-right: 100px; */
+}
+.nav-styling{
+    /* float: right; */
+}
+.nav-item{
+    color: black !important;
+    margin: 5px;
+    padding: 3px !important;
+}
+.nav-item:hover{
+    background-color: rgb(76, 148, 255) !important;
+    border-radius: 10px;
+    color: white !important;
+}
+.active{
+    background-color: rgb(76, 148, 255) !important;
+    border-radius: 10px;
+    color: white !important;
+}
+.dropdown-item:hover{
+    background-color: rgb(76, 148, 255) !important;
+    color: white !important;
+}
+/* nav bar end */
+
+
+.slider-images{
+    width: 100%;
+    height: 70vh;
+}
+
+/* slider end  */
+
+
+.intro marquee{
+    background-color: rgb(76, 148, 255);
+    margin-top: 10px;
+    color: white;
+}
+.introduction{
+    width: 70%;
+    margin: 10px auto;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.introduction h1, .introduction span{
+    font-family: serif;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    font-size: 5vw;
+}
+.introduction h1{
+    color: rgb(0, 253, 0);
+}
+.introduction h1 span{
+    color: rgb(76, 148, 255);
+}
+.introduction p{
+    text-align: left;
+    color: gray;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.text{
+    opacity: 0;
+    transform: translateX(50px);
+    transition: 0.5s all ease-in-out;
+}
+.text-appear{
+    opacity: 1;
+    transform: translateX(0px);
+    transition: 3s all ease-in-out;
+}
+
+/* introduction end  */
+
+
+.progress-br{
+    background-color: rgb(76, 148, 255);
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 50px;
+    padding: 80px;
+    color: white;
+}
+.progress-br img{
+    max-width: 50px;
+    height: auto;  
+}
+.progress-br h3{
+    font-size: 50px;
+    font-family: serif;
+    font-weight: bolder;
+}
+.progress-br p{
+    font-weight: bolder;
+    font-family: serif;
+    font-size: 20px;
+    color: green;
+}
+/* progress bar end  */
+
+
+.wedoing{
+    margin: 25px auto;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.wedoing h1, .wedoing span{
+    font-family: serif;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-size: 5vw;
+}
+.wedoing h1{
+    color: rgb(0, 253, 0);
+}
+.wedoing h1 span{
+    color: rgb(76, 148, 255);
+}
+.box{
+    margin: 20px 20px !important;
+    padding: 50px !important;
+    cursor: pointer;
+}
+.box h5{
+    color: rgb(76, 148, 255);
+    font-family: serif;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+/* what we are doing end  */
+
+
+
+
+.mission{
+    width: 60%;
+}
+.mission h1{
+    color: rgb(76, 148, 255);
+    font-weight: bolder;
+    font-family: serif;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.mission-box{
+    background-color: rgb(196, 196, 196);
+    border: gray 1px solid;
+    margin: 10px;
+    padding: 20px;
+}
+.mission-box h5{
+    color: rgb(76, 148, 255);
+    font-family: serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.mission-box h5 img{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.event h1{
+    color: rgb(76, 148, 255);
+    font-weight: bolder;
+    font-family: serif;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* .mission .event end  */
+
+
+.images{
+    margin: 25px auto;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.images h1, .images span{
+    font-family: serif;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-size: 5vw;
+}
+.images h1{
+    color: rgb(0, 253, 0);
+}
+.images h1 span{
+    color: rgb(76, 148, 255);
+}
+.images .imgs{
+    /* width: 250px; */
+    margin-top: 30px;
+}
+.imgs img{
+    width: 100%;
+}
+
+/* images end  */
+
+
+
+footer{
+    background-color: rgb(51, 51, 51);
+    padding: 60px 0;
+    color: white;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    cursor: pointer;
+}
+footer i{
+    color: rgb(0, 253, 0);
+    margin-right: 20px;
+    cursor: pointer;
+}
+footer h6{
+    font-size: larger;
+    font-weight: bolder;
+    font-family: serif;
+}
+.copyright{
+    background-color: rgb(76, 148, 255);
+}
+.copyright p{
+    padding: 10px 50px 10px;
+    font-size: 10px;
+    color: white;
+}
