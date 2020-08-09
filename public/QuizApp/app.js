@@ -85,12 +85,12 @@ const questions = [
         ]
     },
     {
-        question: 'Who is the best YouTuber?',
+        question: 'Javascript is a ?',
         answers: [
-            { text: 'Web Dev Simplified', correct: true },
-            { text: 'Traversy Media', correct: true },
-            { text: 'Dev Ed', correct: true },
-            { text: 'Fun Fun Function', correct: true }
+            { text: 'Frontend Language', correct: true },
+            { text: 'Backend Language', correct: false },
+            { text: 'Frame work', correct: false },
+            { text: 'Library', correct: false }
         ]
     },
     {
